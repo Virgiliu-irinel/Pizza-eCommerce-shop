@@ -1,0 +1,122 @@
+body {
+    background: url("../assets/bg_img.png") fixed;
+}
+
+div{
+    border-radius: 20px;
+}
+
+.main{
+    padding: 5vw;
+}
+
+.content{
+    padding: 5vw;
+}
+
+.column{
+    background-color: #ebedef;
+}
+
+.colcontent{
+    padding: 1vw;
+    text-align: center;
+}
+
+.footerDiv{
+    background-color: #ebedef;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.navbar{
+    border-radius: 20px;
+}
+/* .nav-link:hover{
+    background: rgb(18, 211, 211);
+    border-radius: 10%; 
+} */
+
+.menu{
+    padding: 5vw;
+    text-align: center;
+}
+
+.login{
+    background-color: #ebedef;
+    padding: 5vw;
+}
+
+.pizza{
+    width: 200px;
+    height: 200px;
+    transition: .5s;
+}
+
+.pizza:hover{
+    transform: scale(1.5);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: bold;
+    border-bottom: 2px solid #dc3545;
+}
+
+.remove{
+    color: red;
+}
+
+.remove:hover{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.comenzi{
+    padding: 5vw;
+    text-align: center;
+}
+
+.feedback{
+    text-align: start;
+}
+
+#order{
+    background-color: #ebedef;
+    padding: 5vw;
+}
+
+#button{
+    background-color: #dc3545;
+    border-radius: 20px;
+    margin: 10px;
+    transition: .2s;
+}
+
+#button:hover{
+    transform: scale(1.5);
+}
+
+#about_us{
+    padding: 5vw;
+    text-align: center;
+}
+
+#about_us_content{
+    background-color: #ebedef;
+    padding: 5vw;
+    text-align: center;
+}
+
+#text_content{
+    padding: 2.5vw;
+}
+
+#contact{
+    padding: 5vw;
+}
+
+#contact_content{
+    background-color: #ebedef;
+    padding: 5vw;
+}
